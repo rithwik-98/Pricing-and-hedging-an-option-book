@@ -1,8 +1,0 @@
-numpy>=2.0
-scipy>=1.13
-pandas>=2.2
-matplotlib>=3.8
-numba>=0.60        # optional but strongly recommended: PSOR solver is ~100x faster (the notebook falls back to pure Python without it)
-arch>=7.0          # only to read the bundled S&P 500 data on first run (data is cached in ./data afterwards)
-jupyter
-nbconvert
